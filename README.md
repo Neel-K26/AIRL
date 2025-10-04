@@ -1,9 +1,9 @@
 # 🧠 AIRL IISc Internship – Coding Assignment
 
-**Author:** [Your Name]
-**Institute:** [Your College Name]
+**Author:** [Neel Khairnar]
+**Institute:** [Pimpri Chinchwad University ]
 **Program:** B.Tech – Computer Science (AI & ML)
-**Platform:** Google Colab (GPU Runtime)
+**Platform:** Google Colab (GPU Runtime) : 83.39 minutes
 **Repository Contents:**
 
 ```
@@ -68,8 +68,10 @@ The ViT architecture performs competitively with traditional CNNs on CIFAR-10, p
 
 ### ▶️ How to Run (Colab)
 
+**Open Q1 in Google Colab:**
+[📓 Q1 – Vision Transformer Notebook](https://colab.research.google.com/drive/1Zg8Qnq4-dbie2c-AcOSNbLEktgXmWoPr?usp=sharing)
+
 ```bash
-# Open in Google Colab
 # Runtime → Change runtime type → GPU
 # Run All cells
 ```
@@ -146,8 +148,10 @@ Output: pixel-accurate mask overlay corresponding to the prompt.
 
 ### ▶️ How to Run (Colab)
 
+**Open Q2 in Google Colab:**
+[📓 Q2 – Text-Driven Segmentation Notebook](https://colab.research.google.com/drive/1Y939eojMmefziCdwX2RIys306_i-QzoW?usp=sharing)
+
 ```bash
-# Open in Google Colab
 # Runtime → Change runtime type → GPU
 # Run All cells
 ```
@@ -164,7 +168,7 @@ Output: pixel-accurate mask overlay corresponding to the prompt.
 ## 🧩 Overall Takeaways
 
 ✅ **Q1 (Vision Transformer):**
-Achieved 73.35% accuracy on CIFAR-10 — a strong baseline for small ViT models with limited data trained on 50 epochs.
+Achieved 73.35% accuracy on CIFAR-10 — a strong baseline for small ViT models with limited data.
 
 ✅ **Q2 (CLIP + SAM2 Segmentation):**
 Achieved 92% segmentation accuracy on a real-world cat image, demonstrating successful multimodal integration for text-based object understanding.
@@ -199,4 +203,3 @@ Achieved 92% segmentation accuracy on a real-world cat image, demonstrating succ
 
 **End of Submission.**
 *Developed and tested entirely on Google Colab GPU Runtime.*
-
